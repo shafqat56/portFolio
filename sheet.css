@@ -1,0 +1,91 @@
+/* Base Styles */
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border: 16px solid blue;
+  max-width: 100%;
+  height: auto;
+}
+
+.border {
+  background-color: rgba(15, 223, 171, 0.524);
+  font-size: larger;
+  padding: 10px;
+}
+
+.container {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(235, 187, 27);
+  background-color: rgb(63, 151, 58);
+  padding: 20px;
+}
+
+th {
+  background-color: chartreuse;
+}
+
+td {
+  background-color: rgb(143, 156, 207);
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  border-spacing: 7px;
+}
+
+.social-icons {
+  display: flex;
+  font-size: 24px;
+  margin: 20 40px;
+  transition: color 0.3s;
+}
+
+#na:hover {
+  color: #ae0e0e;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.intro {
+  line-height: 1.4;
+  font-size: large;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Adjustments for tablet screens */
+  .container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for mobile screens */
+  .container {
+    font-size: 14px;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+
+  table {
+    font-size: 10px;
+  }
+
+  /* Add more responsive styles as needed */
+}
